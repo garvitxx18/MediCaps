@@ -1,0 +1,6 @@
+.itemPage--display{
+    display:grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 22rem));
+    justify-content: center;
+}
