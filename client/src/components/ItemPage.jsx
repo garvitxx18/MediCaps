@@ -1,19 +1,19 @@
-import React from 'react'
-import ItemCard from './ItemCard'
-import "../styles/ItemPage.css"
+import React from "react";
+import ItemCard from "./ItemCard";
+import "../styles/ItemPage.css";
+import { CardData } from "../data/CardData.js";
+
 const ItemPage = () => {
   return (
     <div>
-      <div class='itemPage--display'>
-        <ItemCard/>
-        <ItemCard/>
-        <ItemCard/>
-        <ItemCard/>
-        <ItemCard/>
-        <ItemCard/>
-      </div>
+      {/* <div className="itemPage--display">
+        {CardData.map((ele) => {
+          <ItemCard props={ele} />;
+        })}
+      </div> */}
+      <ItemCard />
     </div>
-  )
-}
+  );
+};
 
-export default ItemPage
+export default ItemPage;
