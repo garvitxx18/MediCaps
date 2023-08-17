@@ -4,12 +4,12 @@ import "../styles/ItemCard.css"
 const ItemCard = () => {
   return (
     <div>
-        <div class='itemCard--div1'>
-            <div class='itemCard--div2'>
-                <div class='itemCard--div3'>
-                    <div class="itemCard--div4">
+        <div className='itemCard--div1'>
+            <div className='itemCard--div2'>
+                <div className='itemCard--div3'>
+                    <div className="itemCard--div4">
                     <svg
-                        class="itemCard--svg-img"
+                        className="itemCard--svg-img"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
                     >
@@ -17,10 +17,10 @@ const ItemCard = () => {
                     </svg>
                     </div>
                 </div>
-                <div class='itemCard--div5'>
-                    <p class='itemCard--para1'>Detached house • 5y old</p>
-                    <p class='itemCard--para2'>$750,000</p>
-                    <p class='itemCard--para3'>742 Evergreen Terrace</p>
+                <div className='itemCard--div5'>
+                    <p className='itemCard--para1'>Detached house • 5y old</p>
+                    <p className='itemCard--para2'>$750,000</p>
+                    <p className='itemCard--para3'>742 Evergreen Terrace</p>
                 </div>
             </div>
         </div>

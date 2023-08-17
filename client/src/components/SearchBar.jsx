@@ -23,7 +23,7 @@ const SearchBar = () => {
           <input className="input"></input>
         </div>
         <div>
-          <button class='search-btn'>Search</button>
+          <button className='search-btn'>Search</button>
         </div>
       </div>
     </div>

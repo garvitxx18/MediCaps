@@ -9,11 +9,10 @@ const ItemPage = () => {
   return (
     <div>
       <div>
-<SearchBar/>
+      <SearchBar/>
       </div>
-      <div class='itemPage--display'>
+      <div className='itemPage--display'>
         <ItemCard/>
-        
       </div>
     </div>
   )
