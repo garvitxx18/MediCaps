@@ -19,9 +19,9 @@ const ItemCard = (props) => {
             </div>
           </div>
           <div className="itemCard--div5">
-            <p className="itemCard--para1">bhjvhj</p>
-            <p className="itemCard--para2">$750,000</p>
-            <p className="itemCard--para3">742 Evergreen Terrace</p>
+            <p className="itemCard--para1">{props.props.name}</p>
+            <p className="itemCard--para2">{props.props.price}</p>
+            <p className="itemCard--para3">{props.props.location}</p>
           </div>
         </div>
       </div>

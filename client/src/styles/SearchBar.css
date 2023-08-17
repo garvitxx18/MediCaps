@@ -7,16 +7,31 @@
   justify-content: space-evenly;
 }
 
+.icon {
+  margin-right: 0.2rem;
+}
+
 .input {
-  width: 300px;
+  min-width: 250px;
+  max-width: 500px;
   height: 25px;
   border-radius: 25px;
   border: none;
 }
 
 .input--box {
-  width: 500px;
+  min-width: 450px;
+  max-width: 500px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.search-btn {
+  padding: 0.75rem;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  color: #f31559;
+  font-size: medium;
 }
