@@ -1,8 +1,8 @@
-.itemPage--display{
-    display:grid;
-    gap: 0.25rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 22rem));
-    justify-content: center;
+.itemPage--display {
+  display: grid;
+  gap: 0.25rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 22rem));
+  justify-content: center;
 }

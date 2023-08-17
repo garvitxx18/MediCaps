@@ -5,7 +5,6 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  
 }
 
 .icon {
@@ -28,7 +27,7 @@
   justify-content: space-evenly;
 }
 
-.search-btn{
+.search-btn {
   padding: 0.75rem;
   border-radius: 25px;
   border: none;
