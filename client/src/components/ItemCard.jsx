@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/ItemCard.css";
 
 const ItemCard = (props) => {
-  console.log(props);
+  // console.log(props);
   return (
     <div>
       <div className="itemCard--div1">
